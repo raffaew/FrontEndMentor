@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background:hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    padding: 2rem;
+}
+
+main {
+    background: hsl(216, 50%, 16%);
+    max-width: 315px;
+    padding: 1.5rem;
+    max-height: 100%;
+    border-radius: 0.7rem;
+   
+}
+
+main .equilibrium {
+    border-radius: 0.7rem;
+    width: 100%
+    
+}
+
+main section {
+    width: 100%
+    
+}
+
+main section h1 {
+    color: #fff;
+    padding: 1rem 0 ;
+    font-size: 20px;
+}
+
+main section .description {
+    color: rgb(89, 114, 146);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+main section .informations {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 14px;
+    
+}
+
+main section .coin {
+    color: aqua;
+    display: flex;
+    align-items: center;
+    
+}
+
+main section .timelimit {
+    display: flex;
+    align-items: center;
+    color:  rgb(89, 114, 146);;
+}
+
+#linha-horizontal {
+    width: 100%;
+    border: 1px solid rgb(89, 114, 146);
+    
+}
+
+
+main section footer {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 1rem;
+    
+
+}
+
+
+
+main section .credits {
+    padding-top: 1rem;
+    font-size: 15px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
