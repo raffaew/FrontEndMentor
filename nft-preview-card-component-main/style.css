@@ -29,16 +29,25 @@ main .equilibrium {
     
 }
 
+main section a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem 0 ;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+main section a:hover {
+    color: aqua;
+
+}
+
+
 main section {
     width: 100%
     
 }
 
-main section h1 {
-    color: #fff;
-    padding: 1rem 0 ;
-    font-size: 20px;
-}
 
 main section .description {
     color: rgb(89, 114, 146);
@@ -87,12 +96,36 @@ main section footer {
 }
 
 
-
 main section .credits {
     padding-top: 1rem;
     font-size: 15px;
+    display: flex;
+    align-items: center;
    
 }
+
+main section .credits img{
+   border-radius: 20px white;
+}
+
+main section .span {
+    padding-left: 13px; 
+
+}
+
+main section .span a{
+   font-size: 1rem;
+   transition: 0.3s;
+
+}
+
+main section .span a:hover {
+    color: aqua;
+ 
+ }
+
+
+
 
 
 
