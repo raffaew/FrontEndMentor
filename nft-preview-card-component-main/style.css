@@ -11,6 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     max-width: 100%;
+    max-height: 100%;
     padding: 2rem;
 }
 
@@ -25,14 +26,19 @@ main {
 
 main .equilibrium {
     border-radius: 0.7rem;
-    width: 100%
+    width: 100%;
     
+    
+}
+
+main section h1 {
+    padding-top: 1rem;
 }
 
 main section a {
     text-decoration: none;
     color: #fff;
-    padding: 1rem 0 ;
+    padding: 1rem 0;
     font-size: 20px;
     transition: 0.3s;
 }
@@ -54,6 +60,7 @@ main section .description {
     width: 100%;
     display: flex;
     align-items: center;
+    padding-top: 1rem;
     
 }
 
@@ -64,6 +71,7 @@ main section .informations {
     justify-content: space-between;
     width: 100%;
     font-size: 14px;
+    
     
 }
 
@@ -77,7 +85,8 @@ main section .coin {
 main section .timelimit {
     display: flex;
     align-items: center;
-    color:  rgb(89, 114, 146);;
+    color:  rgb(89, 114, 146);
+
 }
 
 #linha-horizontal {
@@ -105,7 +114,8 @@ main section .credits {
 }
 
 main section .credits img{
-   border-radius: 20px white;
+   border: 1.9px solid white;
+   border-radius: 1rem;
 }
 
 main section .span {
@@ -123,25 +133,3 @@ main section .span a:hover {
     color: aqua;
  
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
