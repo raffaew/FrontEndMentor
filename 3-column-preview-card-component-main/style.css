@@ -47,6 +47,8 @@ main .boxsedans {
     height: 480px;
     text-align:left;
     padding: 3rem;
+    border-radius: 8px 0px 0px 8px;
+    
 
 }
 
@@ -61,7 +63,7 @@ main .boxsedans button {
   margin-top: 5rem;
   border: #fff;
   border-radius: 50px;
-  padding: 1rem;
+  padding: 14px;
   width: 150px;
   font-family: 'Lexend Deca', sans-serif;
   font-weight: 400;
@@ -91,7 +93,7 @@ main .boxsuvs button {
   margin-top: 5rem;
   border: #fff;
   border-radius: 50px;
-  padding: 1rem;
+  padding: 14px;
   width: 150px;
   font-family: 'Lexend Deca', sans-serif;
   font-weight: 400;
@@ -109,6 +111,8 @@ main .boxluxury {
     height: 480px;
     text-align:left;
     padding: 3.0rem;
+    border-radius: 0px 8px 8px 0px;
+    
 
 }
 
@@ -120,10 +124,71 @@ main .boxluxury button {
   margin-top: 5rem;
   border: #fff;
   border-radius: 50px;
-  padding: 1rem;
+  padding: 14px;
   width: 150px;
   font-family: 'Lexend Deca', sans-serif;
   font-weight: 400;
   color: hsl(179, 100%, 13%);
   
+}
+
+@media screen and (min-width: 375px) and (max-width: 900px ) {
+
+  
+
+    main .boxs {
+        height: 100%;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .boxsedans {
+       border-radius: 8px 8px 0px 0px;
+       height: 420px;
+       padding: 35px;
+       text-align: left;
+    }
+
+
+    main .boxsedans span {
+        line-height: 1.5;
+       
+        
+    }
+
+
+    main .boxsuvs  {
+        height: 420px;
+        padding: 35px;
+        text-align: left;
+
+     }
+      
+
+     main .boxluxury  {
+        height: 420px;
+        border-radius: 0px 0px 8px 8px;
+        padding: 35px;
+        text-align: left;
+
+     }
+
+     main .boxsedans button {
+        margin-top: 1.5rem; 
+
+     }
+
+
+     main .boxsuvs button {
+        margin-top: 1.5rem;
+
+     }
+
+     main .boxluxury button{
+        margin-top: 1.5rem;
+
+     }
+
+
 }
