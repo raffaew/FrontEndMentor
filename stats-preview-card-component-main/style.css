@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(233, 47%, 7%);
+    
+}
+
+main {
+    display: flex;
+    align-items: center;
+ 
+}
+
+main .card {
+    min-height: 448px;
+    width: 585px;
+    border-radius: 11px 0px 0px 11px;
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+
+}
+
+main .sub {
+    max-width: 448px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sub h1 {
+    font-size: 37px;
+
+}
+
+.sub p {
+    padding-top: 1.5rem;
+    max-width: 370px;
+    font-size: 15px;
+    line-height: 26px;
+    color: hsla(0, 0%, 100%, 0.6)
+}
+
+main .informations {
+    padding-top: 3.5rem;
+    display: flex;
+    font-size: 13px;
+    width: 446px;
+    text-align: center;
+    
+    
+}
+
+main .informations p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.6);
+    padding-top: 8px;
+    
+    
+}
+
+
+.companies {
+    padding-right: 3.8rem;
+}
+
+.templates {
+    padding-right: 3.8rem;
+
+}
+
+
+.image {
+    width: 542px;
+    height: 448px;
+    background-color:  hsl(277, 64%, 61%);
+    border-radius: 0px 11px 11px 0px;
+    
+}
+
+#img {
+    border-radius:  0px 11px 11px 0px;
+    opacity: 0.5;
+    height: 100%;
+ 
+}
+
+@media screen and (max-width: 800px ) {
+    
+    body {
+        
+        height: 900px;
+        display: flex;
+        justify-content: center;
+        
+
+    }
+    
+    main {
+        flex-direction: column-reverse;
+    
+    }
+
+    main .card {
+        height: 548px;
+        max-width: 325px;
+        border-radius: 0px 0px 11px 11px;
+        background-color: hsl(244, 38%, 16%);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        color: #ffff;
+    
+    }
+
+    main .sub {
+        width: 260px;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    
+    
+    }
+
+    main .sub h1 {
+        width: 300px;
+        font-size: 30px;
+        padding-top: 2rem;
+        margin-bottom: -10px;
+        
+    }
+
+    main .informations {
+        padding-top: 40px;
+        flex-direction: column;
+        align-self:center;
+        align-items: center;
+        font-size: 13px;
+        
+        
+    }
+
+    main .informations p {
+        padding-bottom: 2rem;
+    }
+
+    .companies {
+        padding-right: 0rem;
+    }
+    
+    .templates {
+        padding-right: 0rem;
+    
+    }
+
+
+
+    .image {
+        display:block;
+        width: 325px;
+        height: 235px;
+        background-color:  hsl(277, 64%, 61%);
+        border-radius:11px 11px 0px 0px;
+        
+    }
+
+    #img {
+        border-radius:  11px 11px 0px 0px;
+        opacity: 0.5;
+        height: 100%;
+        width: 325px;
+     
+    }
+
+   
+}
+
