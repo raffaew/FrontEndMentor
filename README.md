@@ -11,3 +11,5 @@ My challenges completed
 <a href="https://raffaew.github.io/FrontEndMentor/qr-code-component-main/" target="_blank" >QR code component</a>
 
 <a href="https://raffaew.github.io/FrontEndMentor/stats-preview-card-component-main/" target="_blank" >Stats preview card component</a>
+
+<a href="https://raffaew.github.io/FrontEndMentor/interactive-rating-component-main/" target="_blank" >interactive-rating-component-main</a>
