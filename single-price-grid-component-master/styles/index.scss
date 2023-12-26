@@ -36,7 +36,19 @@ body {
         a {
             text-decoration: none;
         }
+        @media screen and (max-width: 674px) {
+            .attribution {
+                font-size: 12px;
+            }
+    
+        }
     }
+
+    @media screen and (max-width: 674px) {
+        height: auto;
+
+    }
+
 
 }
 
@@ -117,8 +129,8 @@ body {
             }
 
             @media screen and (max-width: 674px) {
+                border-radius: 0px 0px 0px 0px;
                 height: 320px;
-
                 div {
                     padding-top: 13px;
                 }
@@ -138,6 +150,7 @@ body {
             }
 
             @media screen and (max-width: 674px) {
+                border-radius: 0px 0px 7px 7px;
                 height: 320px;
                 line-height: 25px;
 
@@ -181,6 +194,7 @@ body {
     }
 
     @media screen and (max-width: 674px) {
+
         width: 380px;
         padding: 1rem;
     }

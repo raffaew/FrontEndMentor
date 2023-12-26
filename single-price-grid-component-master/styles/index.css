@@ -25,6 +25,16 @@ body footer .attribution {
 body footer a {
   text-decoration: none;
 }
+@media screen and (max-width: 674px) {
+  body footer .attribution {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 674px) {
+  body {
+    height: auto;
+  }
+}
 
 .conteiner {
   width: 670px;
@@ -94,6 +104,7 @@ body footer a {
 }
 @media screen and (max-width: 674px) {
   .conteiner .informations .price {
+    border-radius: 0px 0px 0px 0px;
     height: 320px;
   }
   .conteiner .informations .price div {
@@ -112,6 +123,7 @@ body footer a {
 }
 @media screen and (max-width: 674px) {
   .conteiner .informations .about {
+    border-radius: 0px 0px 7px 7px;
     height: 320px;
     line-height: 25px;
   }
