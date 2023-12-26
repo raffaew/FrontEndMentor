@@ -13,3 +13,5 @@ My challenges completed
 <a href="https://raffaew.github.io/FrontEndMentor/stats-preview-card-component-main/" target="_blank" >Stats preview card component</a>
 
 <a href="https://raffaew.github.io/FrontEndMentor/interactive-rating-component-main/" target="_blank" >interactive-rating-component-main</a>
+
+<a href="https://raffaew.github.io/FrontEndMentor/single-price-grid-component-master/" target="_blank" >single-price-grid-component-master</a>
