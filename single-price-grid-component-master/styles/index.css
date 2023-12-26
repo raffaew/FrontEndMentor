@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Karla;
+  background: hsl(218, 22%, 67%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-size: 16px;
+}
+body footer {
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+body footer .attribution {
+  font-size: 14px;
+}
+body footer a {
+  text-decoration: none;
+}
+
+.conteiner {
+  width: 670px;
+  height: 470px;
+}
+.conteiner .community {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 50%;
+  width: 100%;
+  padding: 30px;
+  border-radius: 7px 7px 0px 0px;
+}
+@media screen and (max-width: 674px) {
+  .conteiner .community {
+    height: 320px;
+  }
+}
+.conteiner .community div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.conteiner .community div p {
+  line-height: 1.8rem;
+}
+.conteiner .community h1 {
+  color: hsl(179, 62%, 43%);
+}
+.conteiner .community h3 {
+  color: hsl(71, 73%, 54%);
+  margin-top: 1.5rem;
+}
+.conteiner .community p {
+  color: hsl(206, 10%, 53%);
+  font-weight: 700;
+}
+.conteiner .informations {
+  display: flex;
+  height: 235px;
+}
+@media screen and (max-width: 674px) {
+  .conteiner .informations {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+  }
+}
+.conteiner .informations h3 {
+  margin-top: -2rem;
+}
+.conteiner .informations .price {
+  border-radius: 0px 0px 0px 7px;
+  background: hsl(179, 62%, 43%);
+  color: #fff;
+}
+.conteiner .informations .price span span {
+  color: hsl(205, 49%, 81%);
+}
+.conteiner .informations .price div,
+.conteiner .informations .price button {
+  margin-top: 1.5rem;
+}
+@media screen and (max-width: 674px) {
+  .conteiner .informations .price {
+    height: 320px;
+  }
+  .conteiner .informations .price div {
+    padding-top: 13px;
+  }
+}
+.conteiner .informations .about {
+  border-radius: 0px 0px 7px 0px;
+  background: hsl(179, 53%, 52%);
+  color: #fff;
+}
+.conteiner .informations .about p {
+  margin-top: 1rem;
+  text-align: left;
+  width: 210px;
+}
+@media screen and (max-width: 674px) {
+  .conteiner .informations .about {
+    height: 320px;
+    line-height: 25px;
+  }
+}
+.conteiner .informations .price,
+.conteiner .informations .about {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+.conteiner .informations .price button,
+.conteiner .informations .about button {
+  height: 55px;
+  background: hsl(71, 73%, 54%);
+  color: #fff;
+  font-weight: 600;
+  font-family: Karla;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
+}
+.conteiner .informations .price button:hover,
+.conteiner .informations .about button:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 674px) {
+  .conteiner .informations .price,
+  .conteiner .informations .about {
+    width: 100%;
+  }
+}
+.conteiner .informations span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+@media screen and (max-width: 674px) {
+  .conteiner {
+    width: 380px;
+    padding: 1rem;
+  }
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$margin-top: -4rem;
+
+@mixin dimensions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@mixin Info {
+    width: 50%;
+}
+
+body {
+    font-family: Karla;
+    background: hsl(218, 22%, 67%);
+    @include dimensions();
+    flex-direction: column;
+    height: 100vh;
+    font-size: 16px;
+
+    footer {
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        .attribution {
+            font-size: 14px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+}
+
+.conteiner {
+    width: 670px;
+    height: 470px;
+
+    .community {
+
+        @media screen and (max-width: 674px) {
+            height: 320px;
+        }
+
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 50%;
+        width: 100%;
+        padding: 30px;
+        border-radius: 7px 7px 0px 0px;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+
+            p {
+                line-height: 1.8rem;
+            }
+        }
+
+        h1 {
+            color: hsl(179, 62%, 43%);
+        }
+
+        h3 {
+            color: hsl(71, 73%, 54%);
+            margin-top: 1.5rem;
+        }
+
+        p {
+            color: hsl(206, 10%, 53%);
+            font-weight: 700;
+        }
+    }
+
+    .informations {
+
+        @media screen and (max-width: 674px) {
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            align-items: center;
+        }
+
+        display: flex;
+        height: 235px;
+
+        h3 {
+            margin-top: -2rem;
+        }
+
+        .price {
+
+            border-radius: 0px 0px 0px 7px;
+            background: hsl(179, 62%, 43%);
+            color: #fff;
+
+            span 
+            span{
+                color: hsl(205, 49%, 81%);
+            }
+            div,
+            button {
+                margin-top: 1.5rem;
+            }
+
+            @media screen and (max-width: 674px) {
+                height: 320px;
+
+                div {
+                    padding-top: 13px;
+                }
+
+            }
+        }
+
+        .about {
+            border-radius: 0px 0px 7px 0px;
+            background: hsl(179, 53%, 52%);
+            color: #fff;
+
+            p {
+                margin-top: 1rem;
+                text-align: left;
+                width: 210px;
+            }
+
+            @media screen and (max-width: 674px) {
+                height: 320px;
+                line-height: 25px;
+
+            }
+
+        }
+
+        .price,
+        .about {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 30px;
+
+            button {
+                height: 55px;
+                background: hsl(71, 73%, 54%);
+                color: #fff;
+                font-weight: 600;
+                font-family: Karla;
+                border: none;
+                border-radius: 4px;
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
+            }
+
+            button:hover {
+                cursor: pointer;
+            }
+
+            @media screen and (max-width: 674px) {
+                width: 100%;
+            }
+        }
+
+        span {
+            display: flex;
+            align-items: center;
+            gap: 10px
+        }
+    }
+
+    @media screen and (max-width: 674px) {
+        width: 380px;
+        padding: 1rem;
+    }
+}
